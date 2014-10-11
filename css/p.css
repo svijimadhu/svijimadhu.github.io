@@ -1,0 +1,772 @@
+
+#promo {
+    background:#efefef;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+.inro {
+    padding-top: 10px;
+}
+.intro_icon_box {
+    position: relative;
+}
+.intro_icon:after {
+    border-top: 2px solid #ccc;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.intro_icon i {
+    background:green;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: bold;
+    height: 80px;
+    left: 45%;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+    width: 80px;
+    z-index: 5;
+}
+.intro_icon i:hover {
+	background: #fc6f5c;
+	transform: rotate(360deg);
+}
+/* ==============================
+              next
+=================================*/
+.working_field {
+    background-color: #dee3e4;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.processIcon {
+    float: left;
+    margin-right: 15px;
+}
+.processIcon ul{
+margin:0;
+padding:0;
+}
+.processIcon ul .corner-round {
+    background-color: #f56f61;
+}
+.processIcon ul .corner-round {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 3px;
+}
+.processIcon ul li {
+    background-color: #34495e;
+    list-style: none;
+    padding: 17px 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.processIcon ul li a {
+    color: white;
+    font-size:2em;
+    transition: all 0.3s ease-in-out 0s;
+}
+.processIcon ul li:hover {
+    color:white;
+    background-color: #f56f61;
+}
+/* ==============================
+           SKILLS
+=================================*/
+.wrapper {
+position:relative;
+width:80%;
+margin:20px auto;
+}
+/* Defining the animation */
+@-webkit-keyframes progress
+{
+to {background-position: 30px 0;}
+}
+@-moz-keyframes progress
+{
+to {background-position: 30px 0;}
+}
+@keyframes progress
+{
+to {background-position: 30px 0;}
+}
+/* Set the base of our loader */
+.barBg {
+    background:#282828;
+    border: 10px solid #282828;
+    border-radius: 20px;
+    box-shadow: 0 5px 17px rgba(40, 40, 40, 0.5);
+    height: 35px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.bar {
+background: #7aff32;
+height:30px;
+height: 15px;
+border-radius: 12px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 10px;
+}
+/* Set the linear gradient tile for the animation and the playback */
+.barFill {
+width: 100%;
+height: 15px;
+border-radius: 20px;
+-webkit-animation: progress 1s linear infinite;
+-moz-animation: progress 1s linear infinite;
+animation: progress 1s linear infinite;
+background-repeat: repeat-x;
+background-size: 30px 30px;
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/* Here's some predefined widths to control the fill. Add these classes to the "bar" div */
+.ten {
+width: 10%; /* Sets the progress to 10% */
+}
+.twenty {
+width: 20%; /* Sets the progress to 20% */
+}
+.thirty {
+width: 30%; /* Sets the progress to 30% */
+}
+.forty {
+width: 40%; /* Sets the progress to 40% */
+}
+.fifty {
+width: 50%; /* Sets the progress to 50% */
+}
+.sixty {
+width: 60%; /* Sets the progress to 60% */
+}
+.seventy {
+width: 70%; /* Sets the progress to 70% */
+}
+.eighty {
+width: 80%; /* Sets the progress to 80% */
+}
+.ninety {
+width: 90%; /* Sets the progress to 90% */
+}
+.hundred {
+width: 100%; /* Sets the progress to 100% */
+}
+/* Some colour classes to get you started. Add the colour class to the "bar" div */
+.aquaGradient{
+background: -moz-linear-gradient(top, #7aff32 0%, #54a6e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7aff32), color-stop(100%,#54a6e5));
+background: -webkit-linear-gradient(top, #7aff32 0%,#54a6e5 100%);
+background: -o-linear-gradient(top, #7aff32 0%,#54a6e5 100%);
+background: -ms-linear-gradient(top, #7aff32 0%,#54a6e5 100%);
+background: linear-gradient(to bottom, #7aff32 0%,#54a6e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7aff32', endColorstr='#54a6e5',GradientType=0 );
+}
+.roseGradient {
+background: #ff3232;
+background: -moz-linear-gradient(top, #ff3232 0%, #ed89ff 47%, #ff8989 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(47%,#ed89ff), color-stop(100%,#ff8989));
+background: -webkit-linear-gradient(top, #ff3232 0%,#ed89ff 47%,#ff8989 100%);
+background: -o-linear-gradient(top, #ff3232 0%,#ed89ff 47%,#ff8989 100%);
+background: -ms-linear-gradient(top, #ff3232 0%,#ed89ff 47%,#ff8989 100%);
+background: linear-gradient(to bottom, #ff3232 0%,#ed89ff 47%,#ff8989 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#ff8989',GradientType=0 );
+}
+.madras { /* Credit to Divya Manian via http://lea.verou.me/css3patterns/#madras */
+background-color: hsl(34, 53%, 82%);
+background-image: -webkit-repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+),
+-webkit-repeating-linear-gradient(-45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+);; background-color: hsl(34, 53%, 82%);
+background-image: -webkit-repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+),
+-webkit-repeating-linear-gradient(-45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+);
+}
+.cornflowerblue {
+background-color: CornflowerBlue;
+box-shadow:inset 0px 0px 6px 2px rgba(255,255,255,.3);
+}
+.carrot {
+background: #f2a130;
+background: -moz-linear-gradient(-45deg, #f2a130 0%, #e5bd6e 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f2a130), color-stop(100%,#e5bd6e));
+background: -webkit-linear-gradient(-45deg, #f2a130 0%,#e5bd6e 100%);
+background: -o-linear-gradient(-45deg, #f2a130 0%,#e5bd6e 100%);
+background: -ms-linear-gradient(-45deg, #f2a130 0%,#e5bd6e 100%);
+background: linear-gradient(135deg, #f2a130 0%,#e5bd6e 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a130', endColorstr='#e5bd6e',GradientType=1 );
+}
+/* ==============================
+          HIRE ME
+=================================*/
+.contact {
+    background:#252e30;
+    
+    
+}
+.wrap {
+	padding:0 25%;
+    width:100%;
+}
+
+.submit a{
+text-decoration:none;
+vertical-align:middle;
+}
+
+.contact input[type="text"], .contact textarea {
+    background:#4b5456;
+    border: 1px solid #4b5456;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.92355em;
+    margin: 6% 2% 0 0;
+    outline: medium none;
+    padding: 14px;
+    width: 95%;
+}
+
+.contact input[type="submit"] {
+    background:#191f21;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1em;
+    margin-top: 4%;
+    outline: medium none;
+    padding: 20px;
+    transition: all 0.5s ease 0s;
+}
+.contact input[type="submit"]:hover {
+    background:#2ecc71;
+    color: #fff;
+}
+/* ==============================
+         ABOUT
+=================================*/
+.about{
+background-color: #1abc9c;
+color: #fff;
+margin:0 auto;
+padding:5%;
+}
+.about img {
+    border: 10px solid #16a085;
+}
+.img-circle {
+    border-radius: 50%;
+}
+h1 {
+    font-family: 'Alegreya',serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0 0 25px;
+}
+/* ==============================
+           FOOTER
+=================================*/
+#footer{
+background:#394264;
+padding:5% 5% 3% 5%;
+}
+.social{
+background:#394264;
+display: table;
+margin: 0 auto;
+padding:2em;
+}
+.social ul li{
+list-style-type:none;
+display: table-cell;
+}
+
+.social ul {
+list-style: none;
+margin: 0;
+padding: 0;
+    
+}
+.social li a {
+border-radius: 5px;
+display: block;
+margin:10px;
+color:white;
+font-size:1em;
+transition: all 0.5s ease-in-out 0s;
+}
+.social li a > i {
+border-radius: 5px 0 0 5px;
+background:#1a4e95;
+font-size:1em;
+float: left;
+padding:1em;
+}
+.social li a span {
+color: #fff;
+float: left;
+padding:.75em 3em;
+text-transform: uppercase;
+}
+.social li a.linkedin {
+background:#3468af;
+border:1px solid #1b4f95;
+}
+.social li a.linkedin:hover {
+ background: #0d4797;
+ border:1px solid #1b4f95;   
+}
+.social li a.linkedin > i {
+background: #1a4e95;
+border:1px solid #1b4f95;
+}
+.social li a.skype{
+background:#4fc4f6;
+border:1px solid #35aadc;
+}
+.social li a.skype:hover {
+ background: #0c94ce;
+ border:1px solid #35aadc;   
+}
+.social li a.skype > i {
+background:#35aadc;
+border:1px solid #35aadc;
+ }
+.social li a.googleplus{
+background:#e64c65;
+border:1px solid #cc324b;
+ }
+.social li a.googleplus > i {
+background:#cc324b;
+border:1px solid #cc324b;
+}
+.social li a.googleplus:hover {
+ background: #ca2540; 
+ border:1px solid #cc324b;  
+}
+
+#toTop a{
+background: url("../images/top_move.png") no-repeat;
+border: medium none;
+bottom: 10px;
+height: 44px;
+overflow: hidden;
+position: fixed;
+right: 10px;
+text-decoration: none;
+text-indent: 100%;
+width: 44px;
+-webkit-transition: background 0.1s linear 0s;
+-moz-transition: background 0.1s linear 0s;
+-o-transition: background 0.1s linear 0s;
+transition: background 0.1s linear 0s; 
+}
+.clear {
+clear: both;
+}
+/* ==============================
+           Tooltip1
+=================================*/
+.social span i.v1 {
+visibility:hidden;
+border:1px solid #444;
+bottom:60px;
+left:50%;
+margin-left:-290px;
+opacity:0;
+text-align:center;
+color:white;
+padding:10px;
+position:absolute;
+width:200px;
+z-index:99;
+background-image:-webkit-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-moz-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-ms-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-o-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-color: #eee;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-ms-border-radius:5px;
+-o-border-radius:5px;
+border-radius:5px;
+-webkit-transition:all 0.3s ease-in-out;
+-moz-transition:all 0.3s ease-in-out;
+-o-transition:all 0.3s ease-in-out;
+-ms-transition:all 0.3s ease-in-out;
+transition:all 0.3s ease-in-out;
+}
+.social span i.v1:before,.content span i.v1:after {
+border-bottom:0;
+border-left:8px solid transparent;
+border-right:8px solid transparent;
+border-top:8px solid #444;
+bottom:-8px;
+content:"";
+left:50%;
+margin-left:-8px;
+position:absolute;
+z-index:100;
+}
+
+.social span:hover i.v1 {
+bottom:110px;
+opacity:0.95;
+visibility:visible;
+}
+.social span:hover i.v1 {
+
+-webkit-transform:scale(1.3);
+-moz-transform:scale(1.3);
+-ms-transform:scale(1.3);
+-o-transform:scale(1.3);
+transform:scale(1.3);
+}
+/* custom colors */
+.social span.r {
+background:#f88;
+}
+.social span.r i {
+background-color:#f44;
+border:1px solid #f44;
+}
+.social span.r i:before, .social span.r i:after {
+border-top-color:#f44;
+}
+/* ==============================
+           Tooltip2
+=================================*/
+.social span i.v2 {
+visibility:hidden;
+border:1px solid #444;
+bottom:60px;
+left:50%;
+margin-left:-80px;
+opacity:0;
+text-align:center;
+color:white;
+padding:10px;
+position:absolute;
+width:200px;
+z-index:99;
+background-image:-webkit-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-moz-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-ms-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-o-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-color: #eee;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-ms-border-radius:5px;
+-o-border-radius:5px;
+border-radius:5px;
+-webkit-transition:all 0.3s ease-in-out;
+-moz-transition:all 0.3s ease-in-out;
+-o-transition:all 0.3s ease-in-out;
+-ms-transition:all 0.3s ease-in-out;
+transition:all 0.3s ease-in-out;
+}
+.social span i.v2:before,.content span i.v2:after {
+border-bottom:0;
+border-left:8px solid transparent;
+border-right:8px solid transparent;
+border-top:8px solid #444;
+bottom:-8px;
+content:"";
+left:50%;
+margin-left:-8px;
+position:absolute;
+z-index:100;
+}
+
+.social span:hover i.v2 {
+bottom:110px;
+opacity:0.95;
+visibility:visible;
+}
+.social span:hover i.v2 {
+
+-webkit-transform:scale(1.3);
+-moz-transform:scale(1.3);
+-ms-transform:scale(1.3);
+-o-transform:scale(1.3);
+transform:scale(1.3);
+}
+/* custom colors */
+.social span.g {
+background:#8f8;
+}
+.social span.g i {
+background-color:#4f4;
+border:1px solid #4f4;
+}
+.social span.g i:before, .content span.g i:after {
+border-top-color:#4f4;
+} 
+/* ==============================
+           Tooltip3
+=================================*/
+.social span i.v3 {
+visibility:hidden;
+border:1px solid #444;
+bottom:60px;
+left:50%;
+margin-left:130px;
+opacity:0;
+text-align:center;
+color:white;
+padding:10px;
+position:absolute;
+width:200px;
+z-index:99;
+background-image:-webkit-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-moz-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-ms-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:-o-linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-image:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.2));
+background-color: #eee;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-ms-border-radius:5px;
+-o-border-radius:5px;
+border-radius:5px;
+-webkit-transition:all 0.3s ease-in-out;
+-moz-transition:all 0.3s ease-in-out;
+-o-transition:all 0.3s ease-in-out;
+-ms-transition:all 0.3s ease-in-out;
+transition:all 0.3s ease-in-out;
+}
+.social span i.v3:before,.content span i.v3:after {
+border-bottom:0;
+border-left:8px solid transparent;
+border-right:8px solid transparent;
+border-top:8px solid #444;
+bottom:-8px;
+content:"";
+left:50%;
+margin-left:-8px;
+position:absolute;
+z-index:100;
+}
+
+.social span:hover i.v3 {
+bottom:110px;
+opacity:0.95;
+visibility:visible;
+}
+.social span:hover i.v3 {
+
+-webkit-transform:scale(1.3);
+-moz-transform:scale(1.3);
+-ms-transform:scale(1.3);
+-o-transform:scale(1.3);
+transform:scale(1.3);
+}
+/* custom colors */
+.social span.b {
+background:#88f;
+}
+.social span.b i {
+background-color:#44f;
+border:1px solid #44f;
+}
+.social span.b i:before, .social span.b i:after {
+border-top-color:#44f;
+} 
+/* ==============================
+   JOBS I DO       
+=================================*/
+.main{
+width: 90%;
+margin: 0 auto;
+position: relative;
+} 
+.ch-grid {
+margin: 20px 0 0 0;
+padding: 0;
+list-style: none;
+display: block;
+text-align: center;
+width: 100%;
+}
+.ch-grid:after,
+.ch-item:before {
+content: '';
+display: table;
+}
+.ch-grid:after {
+clear: both;
+}
+.ch-grid li{
+width: 220px;
+height: 220px;
+display: inline-block;
+margin: 20px;
+}
+.ch-item {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+position: relative;
+box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+cursor: default;
+}
+.ch-info-wrap,
+.ch-info{
+position: absolute;
+width: 180px;
+height: 180px;
+border-radius: 50%;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+-webkit-perspective: 800px;
+-moz-perspective: 800px;
+-o-perspective: 800px;
+-ms-perspective: 800px;
+perspective: 800px;
+}
+.ch-info-wrap {
+top: 20px;
+left: 20px;
+box-shadow:
+0 0 0 20px rgba(255,255,255,0.2),
+inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+.ch-info {
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.ch-info > div {
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-position: center center;
+-webkit-transition: all 0.6s ease-in-out;
+-moz-transition: all 0.6s ease-in-out;
+-o-transition: all 0.6s ease-in-out;
+-ms-transition: all 0.6s ease-in-out;
+transition: all 0.6s ease-in-out;
+}
+.ch-info .ch-info-front {
+-webkit-transform-origin: 50% 100%;
+-moz-transform-origin: 50% 100%;
+-o-transform-origin: 50% 100%;
+-ms-transform-origin: 50% 100%;
+transform-origin: 50% 100%;
+z-index: 100;
+box-shadow:
+inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+.ch-info .ch-info-back {
+background: rgba(230,132,107,0);
+}
+.ch-img-1 {
+background-image: url(../images/1.jpg);
+}
+.ch-img-2 {
+background-image: url(../images/2.jpg);
+}
+.ch-img-3 {
+background-image: url(../images/6.jpg);
+}
+.ch-info h3 {
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size:1em;
+margin: 0 25px;
+padding: 40px 0 0 0;
+height: 90px;
+font-family: 'Open Sans', Arial, sans-serif;
+text-shadow:
+0 0 1px #fff,
+0 1px 2px rgba(0,0,0,0.3);
+}
+.ch-info p {
+color: #fff;
+padding: 10px 5px;
+font-style: italic;
+margin: 0 30px;
+font-size: 12px;
+border-top: 1px solid rgba(255,255,255,0.5);
+}
+.ch-info p a {
+display: block;
+color: #fff;
+color: rgba(255,255,255,0.7);
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 9px;
+letter-spacing: 1px;
+padding-top: 4px;
+font-family: 'Open Sans', Arial, sans-serif;
+}
+.ch-info p a:hover {
+color: #fff222;
+color: rgba(255,242,34, 0.8);
+}
+.ch-item:hover .ch-info-front {
+-webkit-transform: rotate3d(1,0,0,-180deg);
+-moz-transform: rotate3d(1,0,0,-180deg);
+-o-transform: rotate3d(1,0,0,-180deg);
+-ms-transform: rotate3d(1,0,0,-180deg);
+transform: rotate3d(1,0,0,-180deg);
+box-shadow:
+inset 0 0 5px rgba(255,255,255,0.2),
+inset 0 0 3px rgba(0,0,0,0.3);
+}
+.ch-item:hover .ch-info-back {
+background: rgba(230,132,107,0.6);
+}
+/* ==============================
+  textillate       
+=================================*/
+h2{
+background:black;
+}
